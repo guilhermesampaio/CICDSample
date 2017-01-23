@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F90D5101-669D-4AFC-A632-7A644D556F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2DC5C6F1-7B13-4B9E-B81D-DEA9AE937B40}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CICDSample.API", "src\CICDSample.API\CICDSample.API.xproj", "{B6F629AD-A10D-4473-A759-90D6BB81CC90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6F629AD-A10D-4473-A759-90D6BB81CC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F629AD-A10D-4473-A759-90D6BB81CC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F629AD-A10D-4473-A759-90D6BB81CC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F629AD-A10D-4473-A759-90D6BB81CC90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6F629AD-A10D-4473-A759-90D6BB81CC90} = {F90D5101-669D-4AFC-A632-7A644D556F9A}
+	EndGlobalSection
+EndGlobal
