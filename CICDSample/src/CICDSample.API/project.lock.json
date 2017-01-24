@@ -3418,6 +3418,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "CICDSample.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.0",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.0.0"
+        },
+        "compile": {
+          "netcoreapp1.0/CICDSample.Domain.dll": {}
+        },
+        "runtime": {
+          "netcoreapp1.0/CICDSample.Domain.dll": {}
+        }
       }
     }
   },
@@ -9204,10 +9217,16 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
       ]
+    },
+    "CICDSample.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CICDSample.Domain/project.json",
+      "msbuildProject": "../CICDSample.Domain/CICDSample.Domain.xproj"
     }
   },
   "projectFileDependencyGroups": {
     "": [
+      "CICDSample.Domain >= 1.0.0-*",
       "Microsoft.AspNetCore.Mvc >= 1.0.1",
       "Microsoft.AspNetCore.Routing >= 1.0.1",
       "Microsoft.AspNetCore.Server.IISIntegration >= 1.0.0",
