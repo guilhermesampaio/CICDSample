@@ -19,6 +19,9 @@ namespace CICDSample.API
                 .UseStartup<Startup>()
                 .Build();
 
+
+
+
             host.Run();
         }
     }
