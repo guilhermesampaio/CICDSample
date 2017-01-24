@@ -3423,7 +3423,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.0",
         "dependencies": {
-          "Microsoft.NETCore.App": "1.0.0"
+          "Microsoft.NETCore.App": "1.0.1"
         },
         "compile": {
           "netcoreapp1.0/CICDSample.Domain.dll": {}
