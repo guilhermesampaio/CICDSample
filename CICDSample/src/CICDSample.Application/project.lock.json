@@ -119,7 +119,7 @@
           "lib/netstandard1.3/_._": {}
         }
       },
-      "Microsoft.NETCore.App/1.0.0": {
+      "Microsoft.NETCore.App/1.0.1": {
         "type": "package",
         "dependencies": {
           "Libuv": "1.9.0",
@@ -127,7 +127,7 @@
           "Microsoft.CodeAnalysis.CSharp": "1.3.0",
           "Microsoft.CodeAnalysis.VisualBasic": "1.3.0",
           "Microsoft.NETCore.DotNetHostPolicy": "1.0.1",
-          "Microsoft.NETCore.Runtime.CoreCLR": "1.0.2",
+          "Microsoft.NETCore.Runtime.CoreCLR": "1.0.4",
           "Microsoft.VisualBasic": "10.0.1",
           "NETStandard.Library": "1.6.0",
           "System.Buffers": "4.0.0",
@@ -186,7 +186,7 @@
           "Microsoft.NETCore.DotNetHost": "1.0.1"
         }
       },
-      "Microsoft.NETCore.Jit/1.0.2": {
+      "Microsoft.NETCore.Jit/1.0.4": {
         "type": "package"
       },
       "Microsoft.NETCore.Platforms/1.0.1": {
@@ -198,10 +198,10 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.Runtime.CoreCLR/1.0.2": {
+      "Microsoft.NETCore.Runtime.CoreCLR/1.0.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Jit": "1.0.2",
+          "Microsoft.NETCore.Jit": "1.0.4",
           "Microsoft.NETCore.Windows.ApiSets": "1.0.1"
         }
       },
@@ -1996,7 +1996,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.0",
         "dependencies": {
-          "Microsoft.NETCore.App": "1.0.0"
+          "Microsoft.NETCore.App": "1.0.1"
         },
         "compile": {
           "netcoreapp1.0/CICDSample.Domain.dll": {}
@@ -2147,12 +2147,12 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.NETCore.App/1.0.0": {
-      "sha512": "Bv40dLDrT+Igcg1e6otW3D8voeJCfcAxOlsxSVlDz+J+cdWls5kblZvPHHvx7gX3/oJoQVIkEeO3sMyv5PSVJA==",
+    "Microsoft.NETCore.App/1.0.1": {
+      "sha512": "M3iH7u95LntTkJtI/DqN/96MRlb8Wa0SjnXldxHA4FjlvEqghOhwK087bDZAZaTN9C4YHckvaYH3ka9eYWZZZw==",
       "type": "package",
-      "path": "Microsoft.NETCore.App/1.0.0",
+      "path": "Microsoft.NETCore.App/1.0.1",
       "files": [
-        "Microsoft.NETCore.App.1.0.0.nupkg.sha512",
+        "Microsoft.NETCore.App.1.0.1.nupkg.sha512",
         "Microsoft.NETCore.App.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -2195,12 +2195,12 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.Jit/1.0.2": {
-      "sha512": "Ok2vWofa6X8WD9vc4pfLHwvJz1/B6t3gOAoZcjrjrQf7lQOlNIuZIZtLn3wnWX28DuQGpPJkRlBxFj7Z5txNqw==",
+    "Microsoft.NETCore.Jit/1.0.4": {
+      "sha512": "s336ryZlopR+pQ4VfKlILX1LxiQzpCPnmiGot0p5aFPeCjwmKtHC88MI8jXdvdGPySON9i1bPUKJP8jiiPIAjA==",
       "type": "package",
-      "path": "Microsoft.NETCore.Jit/1.0.2",
+      "path": "Microsoft.NETCore.Jit/1.0.4",
       "files": [
-        "Microsoft.NETCore.Jit.1.0.2.nupkg.sha512",
+        "Microsoft.NETCore.Jit.1.0.4.nupkg.sha512",
         "Microsoft.NETCore.Jit.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -2220,12 +2220,12 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.Runtime.CoreCLR/1.0.2": {
-      "sha512": "A0x1xtTjYJWZr2DRzgfCOXgB0JkQg8twnmtTJ79wFje+IihlLbXtx6Z2AxyVokBM5ruwTedR6YdCmHk39QJdtQ==",
+    "Microsoft.NETCore.Runtime.CoreCLR/1.0.4": {
+      "sha512": "NTd+F7MQJi5wFh6Hq3uVH0L3om+pVcfF+bpw0hSd+Ka92QSZ4IfDJw/IWqTQ9jUtLyWYR4XR+52HD5HW+a+zoQ==",
       "type": "package",
-      "path": "Microsoft.NETCore.Runtime.CoreCLR/1.0.2",
+      "path": "Microsoft.NETCore.Runtime.CoreCLR/1.0.4",
       "files": [
-        "Microsoft.NETCore.Runtime.CoreCLR.1.0.2.nupkg.sha512",
+        "Microsoft.NETCore.Runtime.CoreCLR.1.0.4.nupkg.sha512",
         "Microsoft.NETCore.Runtime.CoreCLR.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6610,7 +6610,7 @@
       "CICDSample.Domain >= 1.0.0-*"
     ],
     ".NETCoreApp,Version=v1.0": [
-      "Microsoft.NETCore.App >= 1.0.0"
+      "Microsoft.NETCore.App >= 1.0.1"
     ]
   },
   "tools": {},

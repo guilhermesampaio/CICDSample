@@ -8,3 +8,5 @@ build:
   
 test_script:
 - cmd: dotnet test CICDSample\src\CICDSample.Tests
+
+
