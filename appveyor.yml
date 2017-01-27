@@ -5,6 +5,7 @@ before_build:
 
 build:
   verbosity: minimal
+  publish_azure: true
   
 test_script:
 - cmd: dotnet test CICDSample\src\CICDSample.Tests
