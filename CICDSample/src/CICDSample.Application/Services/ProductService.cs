@@ -11,7 +11,10 @@ namespace CICDSample.Application.Services
         {
             BaseResponse response = new BaseResponse();
 
+            if (product.Price <= 0)
+                response.Messages.Add("O preço do produto deve ser igual ou maior que 0!");
             
+            response.Success = response.Messages.Count == 0;
 
             return response;
             

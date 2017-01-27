@@ -25,7 +25,7 @@ namespace CICDSample.Tests
 
             // Assert
             Assert.True(!response.Success);
-            Assert.True(response.Messages.GetEnumerator().Current.Contains("O produto deve possuir um preço!"));
+            Assert.True(response.Messages.Contains("O preço do produto deve ser igual ou maior que 0!"));
 
         }
     }

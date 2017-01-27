@@ -7,7 +7,12 @@ namespace CICDSample.Application.ViewModels
 {
     public class BaseResponse
     {
+        public BaseResponse()
+        {
+            Messages = new List<string>();
+        }
+
         public bool Success { get; set; }
-        public IEnumerable<string> Messages { get; set; }
+        public IList<string> Messages { get; set; }
     }
 }
